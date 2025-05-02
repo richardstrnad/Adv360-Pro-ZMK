@@ -52,34 +52,6 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        combo_LEFT_BRACKET {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <41 42>;
-            require-prior-idle-ms = <50>;
-        };
-
-        combo_RIGHT_BRACKET {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <42 43>;
-            require-prior-idle-ms = <50>;
-        };
-
-        combo_TILDE {
-            bindings = <&kp TILDE>;
-            key-positions = <31 32>;
-            require-prior-idle-ms = <50>;
-        };
-
-        combo_ESC {
-            bindings = <&kp ESC>;
-            key-positions = <32 41>;
-            require-prior-idle-ms = <50>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
